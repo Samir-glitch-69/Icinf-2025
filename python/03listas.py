@@ -36,3 +36,34 @@ print(estudiantes.index('carlos'))
 #el set es con llaves 
 
 colores = {'azul', 'rojo', 'azul', 'verde'}
+
+#funcion de append va en listas esto añade un elemento a las listas al fina
+ramos.append('introducción a la matemáticas')
+print(ramos)
+
+#modificar elementos a la lista 
+ramos[0] = 'comunicacion' 
+print(ramos)
+
+#otra dorma de modificar elementos a la lista aqui se pasan 2 elementos done y el valor
+ramos.insert(0,"álgebra")
+
+#elminar el ultimo elemento de la lista
+ramos.pop()
+print(ramos)
+
+#ordenando elementos de una lista descendente y ascendente 
+ramos.sort()
+print(ramos)
+
+#ordenando elementos de una lista segun su cantidad de caracteres
+ramos.sort(key=len)
+print(ramos)
+
+#key es una propiedad de la funcion sort y
+#len es la cantidad de caracteres que hay dentro de un stirng
+
+#ocupando el metodo extend
+#añade una lista a otra combinandolas pero sin borrarlas solo ufnciona para las listas
+ramos.extend(n)
+print(ramos)
