@@ -6,13 +6,24 @@ s = 0
 a = 500
 b = 456
 
+suma_a = 0
+suma_b = 0
+
+
+
 while a <= 800:
-    s += a 
-    print("Sumando:",a)
+    s = s + a
+    suma_a = suma_a + a
+    print("\nSumandole 10 al:",a)
     a += 10
     
     if b >= 0:
-        s += b
-        print("Sumando:",b)
-        b -= 2
-print("La suma total es de:",s)
+        s = s + b
+        suma_b = suma_b + b
+        print("\nRestandole 2 al:",b)
+        b = b - 2
+
+print("\nLa suma total de los valores de 500 de 10 en 10 es:",suma_a)
+print("\nLa resta total de los valores de 456 de 2 en 2 es:",suma_b)
+print("\nEstos dos valores sumados son:",s) 
+print()
