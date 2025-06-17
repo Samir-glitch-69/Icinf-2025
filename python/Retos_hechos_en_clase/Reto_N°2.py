@@ -1,8 +1,8 @@
 #reto en clases 
 
 Inventario = {
-    manzana = tuple(200, 400, 600)
-    platano = tuple(200, 200, 400)
+    manzana = tuple(200, 400, 600),
+    platano = tuple(200, 200, 400),
     cereza = tuple(100, 200, 300)
     }
 
