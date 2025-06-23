@@ -97,4 +97,4 @@ tuplas = list(clima.items())
 print("\n========= G. LISTA DE TUPLAS (CLAVE, VALOR) =========")
 print(tuplas)
 
-#ahora sipo
+#ahora sipo(hecho por profesor)
