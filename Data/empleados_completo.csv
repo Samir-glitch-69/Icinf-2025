@@ -1,0 +1,11 @@
+Nombre,Edad,Salario,Departamento,Años_Experiencia
+Ana,25.0,50000.0,IT,3.0
+Luis,30.0,60000.0,Marketing,5.0
+María,,55000.0,IT,4.0
+Carlos,35.0,,Ventas,
+Elena,28.0,48000.0,IT,2.0
+Pedro,45.0,75000.0,Marketing,15.0
+Sofía,22.0,42000.0,Ventas,1.0
+Miguel,38.0,68000.0,IT,8.0
+Laura,,52000.0,Marketing,6.0
+Diego,29.0,,Ventas,3.0
